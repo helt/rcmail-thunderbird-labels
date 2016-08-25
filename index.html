@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rcmail-thunderbird-labels by helt</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Rcmail-thunderbird-labels</h1>
+        <p>Automatically exported from code.google.com/p/rcmail-thunderbird-labels</p>
+
+        <p class="view"><a href="https://github.com/helt/rcmail-thunderbird-labels">View the Project on GitHub <small>helt/rcmail-thunderbird-labels</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/helt/rcmail-thunderbird-labels/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/helt/rcmail-thunderbird-labels/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/helt/rcmail-thunderbird-labels">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="thunderbird-labels-plugin-for-roundcube-webmail" class="anchor" href="#thunderbird-labels-plugin-for-roundcube-webmail" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Thunderbird Labels Plugin for Roundcube Webmail</h2>
+
+<h3>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+
+<ul>
+<li>Displays the message rows using the same colors as Thunderbird does</li>
+<li>Label of a message can be changed/set exactly like in Thunderbird</li>
+<li>Keyboard shortcuts on keys 0-5 work like in Thunderbird</li>
+<li>Integrates into contextmenu plugin when available</li>
+<li>Works for skins classic and larry</li>
+<li>currently available translations:
+
+<ul>
+<li>English</li>
+<li>French (Français)</li>
+<li>German (Deutsch)</li>
+<li>Polish (Polski)</li>
+<li>Russian (Русский)</li>
+<li>Hungarian (Magyar)</li>
+<li>Czech (Česky)</li>
+<li>Bulgarian (български език)</li>
+<li>Catalan (català)</li>
+<li>Latvian (latviešu)</li>
+<li>Italian (italiano)</li>
+<li>Spanish (español)</li>
+<li>Ukranian (українська)</li>
+</ul>
+</li>
+<li>screenshot: <a href="http://rcmail-thunderbird-labels.googlecode.com/files/screenshot.png">http://rcmail-thunderbird-labels.googlecode.com/files/screenshot.png</a>
+</li>
+</ul>
+
+<h3>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO</h3>
+
+<ul>
+<li>allow users to have an arbitrary number of labels</li>
+</ul>
+
+<h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>INSTALL</h3>
+
+<ol>
+<li>unpack to plugins directory</li>
+<li>add <code>, 'thunderbird_labels'</code> to <code>$rcmail_config['plugins']</code> in main.inc.php</li>
+</ol>
+
+<h3>
+<a id="configure" class="anchor" href="#configure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CONFIGURE</h3>
+
+<p>See config.inc.php</p>
+
+<ul>
+<li>
+<code>tb_label_enable = true/false</code> (can be changed by user in prefs UI)</li>
+<li><code>tb_label_modify_labels = true/false</code></li>
+<li><code>tb_label_enable_contextmenu = true/false</code></li>
+<li>
+<code>tb_label_enable_shortcuts = true/false</code> (can be changed by user in prefs UI)</li>
+<li>
+<code>tb_label_style = 'bullets'</code> or <code>'thunderbird'</code>
+</li>
+</ul>
+
+<h3>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h3>
+
+<p>Michael Kefeder
+<a href="https://github.com/mike-kfed/rcmail-thunderbird-labels">https://github.com/mike-kfed/rcmail-thunderbird-labels</a></p>
+
+<h3>
+<a id="history" class="anchor" href="#history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>History</h3>
+
+<p>This plugin is based on a patch I found for roundcube 0.3 a long time ago.</p>
+
+<p>Since roundcube is now able to handle the labels without modification of its source I decided to create a plugin.</p>
+
+<p>There exists a "Tags plugin for RoundCube" <a href="http://sourceforge.net/projects/tagspluginrc/">http://sourceforge.net/projects/tagspluginrc/</a> which does something similar, my plugin emulates thunderbirds behaviour better I think (coloring the message rows for example)</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/helt">helt</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
